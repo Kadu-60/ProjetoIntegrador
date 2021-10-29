@@ -19,27 +19,27 @@
   <main>
         <div class="container ">
             <form action="" class="form-cadastro">
-                <div class="row pt-5">
-                    <div class="col-md-2"></div>
-                    
-                    <div class="col">
-                        <h2>Criar conta</h2>
+                
+                <div class="row d-flex justify-content-center">
+                
+                    <div class="col d-flex justify-content-center">
+                        <h2 class="titulo" >Criar conta</h2>
                     </div>
-                </div>
+               </div>
                 <br>
-                <div class="row ">
-                    <div class="col-md-2"></div>
-                    <div class="form-group col-md-4">
+                <div class="row d-flex justify-content-center">
+                    
+                    <div class="form-group col-md-3">
                         <label for="inputNome" class="form-label">Nome</label>
                         <input type="text" class="form-control" name="inputNome" id="inputNome" required>
                     </div>
-                    <div class="form-group col-md-4">
+                    <div class="form-group col-md-3">
                         <label for="inputSobrenome" class="form-label">Sobrenome</label>
                         <input type="text" class="form-control" name="inputSobrenome" id="inputSobrenome" required>
                     </div>
                 </div>
-               <div class="row ">
-                <div class="col-md-2"></div>
+               <div class="row d-flex justify-content-center">
+               
                     <div class="form-group col-md-3">
                         <label for="inputCPF">CPF</label>
                         <input type="text" placeholder="XXX.XXX.XXX-XX" class="form-control" name="inputCPF" id="inputCPF" required>
@@ -51,9 +51,9 @@
                     </div>
                     
                </div>
-               <div class="row">
-                <div class="col-md-2"></div>
-                   <div class="form-group col-md-5">
+               <div class="row d-flex justify-content-center">
+             
+                   <div class="form-group col-md-3">
                        <label for="inputEmail">E-mail</label>
                        <input type="email" placeholder="user@email.com" class="form-control" name="inputEmail" id="inputEmail" required>
                        <small id="emailHelp" class="form-text text-muted">Este será seu usuario</small>
@@ -65,33 +65,31 @@
                    </div>
                </div>
                <div class="row">
-                <div class="col-md-2"></div>
+                <div class="col-md-3"></div>
                    <div class="form-group col-md-3">
                         <label for="inputSenha">Senha</label>
                         <input type="password" placeholder="Insira sua senha" class="form-control" name="inputSenha" id="inputSenha" required>
                         <small id="senhaHelp" class="form-text text-muted">Deve conter pelo menos 8 caracteres</small>
                     </div>
-               </div>
-               <div class="row">
-               <div class="col-md-2"></div>
                     <div class="form-group col-md-3">
                         <label for="inputRepitaSenha">Repita sua senha</label>
                         <input type="password" placeholder="Insira sua senha" class="form-control" name="inputRepitaSenha" id="inputRepitaSenha" required>
                     </div>
                </div>
+               
                <br><br>
                <div class="row justify-content-center">
                 <div class="col-md-6 d-flex justify-content-around">
                     <div class="form-check col-md-6 termos">
                         <input class="form-check-input aceite-termos" type="checkbox" value="termos" id="flexCheckChecked" required>
-                        <label class="form-check-label" for="flexCheckChecked">Aceito e concordo com o termos</label>
+                        <label class="form-check-label" for="flexCheckChecked">Aceito e concordo com os <a href="termos.html">Termos</a></label>
                     </div>
                 </div>
                 </div>
                <br>
                <div class="row d-flex justify-content-center">
                 <div class="col-12 col-md-4  d-flex justify-content-around">
-                    <button type="submit" class="btn btn-success col-12 col-md-10">Criar conta</button>
+                    <button type="submit" class="btn btn-criarConta col-12 col-md-10">Criar conta</button>
                 </div>
              
              

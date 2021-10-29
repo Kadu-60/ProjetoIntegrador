@@ -1,4 +1,11 @@
-
+.btn-criarConta{
+    background-color: #070c90;
+    color: white;
+}
+.btn-criarConta:hover{
+    background-color: #1c23e7;
+    color: white;
+}
 
 html, body{
     overflow-x: hidden;
