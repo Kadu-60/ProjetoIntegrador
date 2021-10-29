@@ -10,3 +10,8 @@
 html, body{
     overflow-x: hidden;
 }
+
+.titulo{
+    font-family: 'MedievalSharp';
+    font-weight: bold;
+}

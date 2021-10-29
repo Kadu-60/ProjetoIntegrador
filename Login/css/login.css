@@ -1,0 +1,15 @@
+h2{
+    font-family: 'MedievalSharp', serif;
+    font-weight: bolder;
+}
+html, body{
+    overflow-x: hidden;
+}
+.btn-fazerLogin{
+    background-color: #070c90;
+    color: white;
+}
+.btn-fazerLogin:hover{
+    background-color: #1c23e7;
+    color: white;
+}

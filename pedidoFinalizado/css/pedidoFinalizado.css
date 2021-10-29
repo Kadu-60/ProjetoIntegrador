@@ -1,0 +1,62 @@
+h2 {
+    font-family: 'MedievalSharp', serif;
+    font-weight: bolder;
+}
+
+.barril {
+    width: 100%;
+    max-width: 110px;
+    height: auto;
+}
+
+.pedido {
+    font-family: 'MedievalSharp';
+    font-weight: bold;
+    padding-top: 15px;
+}
+.resumo{
+    padding-top: 10px;;
+}
+
+.numeroPedido{
+    font-weight: bolder;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.teste{
+    background-color: aqua;
+}
+
+.pagamentoCartao{
+    padding-left: 3px;
+}
+
+.totalCaixa{
+    font-weight:400;
+    font-size:14px;
+}
+.pagamentoCaixa{
+    font-weight:400;
+    font-size:14px;
+}
+.enderecoCaixa{
+    font-weight:400;
+    font-size:14px;
+}
+
+.divisao {
+    background-color: grey;
+    height: 1px;
+}
+html, body{
+    overflow-x: hidden;
+}
+.btn-voltarHome{
+    background-color: #8D733F;
+    color: white;
+}
+.btn-voltarHome:hover{
+    background-color: #4B4A42;
+    color: white;
+}
