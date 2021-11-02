@@ -1,0 +1,53 @@
+h5 {
+    font-family: 'MedievalSharp', serif;
+    font-weight: bolder;
+}
+
+.pesquisa {
+    color: rgb(77, 76, 76);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+
+.teste{
+    background-color: aquamarine;
+}
+
+.imgPesquisa{
+    width: 100%;
+    max-width: 110px;
+    
+}
+
+.descricao{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.preco{
+    font-weight: bolder;
+}
+
+.resultadoPesquisa:hover{
+    box-shadow: 1px 1px 3px 0px gray;
+    
+}
+.resultadoPesquisa{
+    box-shadow: 0px 0px 1px 0px rgb(172, 171, 171);
+    
+}
+
+
+.comprar{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #070c90ef;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+.page-link{
+    color: black !important;
+}

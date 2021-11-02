@@ -1,0 +1,42 @@
+.body-pagamento{
+    justify-content: center;
+    padding: 50px;
+    font-size: large;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: bold;
+    color: black;
+    /* background-image: url("https://images.tcdn.com.br/img/img_prod/727571/revestimento_adesivo_madeira_cerejeira_com_textura_25_1_20191015083022.jpg"); */
+}
+
+.cabecalho-pagamento{
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.breadcrumb{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.form-control, .label-pagamento {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    
+}
+
+.form-control:hover{
+    box-shadow: 2px 2px 0px 0px rgba(128, 128, 128, 0.466);
+    border-color: #070c90;
+    font-style: italic;
+}
+
+.btn-pagamento{
+    background-color: #070c90;
+    color: #ffff;
+}
+
+@media (max-width:992px) {
+    .cadastro-inv{
+        display: none;
+    }
+}

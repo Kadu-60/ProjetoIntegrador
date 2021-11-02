@@ -1,0 +1,115 @@
+.home-card-produto1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 450px;
+    width: 100%;
+    box-shadow: 0 0 10px 1px #ccc;
+    margin-top:10px;
+    margin-bottom: 30px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+.home-card-produto1:hover{
+    box-shadow: 0 0 10px 1px grey;
+    transition: 0.3s;
+    color: black;
+}
+.home-escudo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+.home-escudo img{
+    width: 25%;
+}
+.home-imagem-produto > img{
+    height: 190px;
+}
+.home-imagem-produto{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.home-titulo-produto{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+.home-qtd{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border: 1px solid grey;
+    height: 50px;
+    width: 70%;
+    padding: 0;
+    
+}
+.home-qtd p{
+    margin: 0;
+    font-size: 20px;
+}
+.home-botao-menos, .home-quantidade, .home-botao-mais{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.home-botao-menos:hover, .home-botao-mais:hover{
+    background-color: #070c90;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.home-qtd-botao{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-botao-menos p, .home-quantidade p, .home-botao-mais p{
+    font-weight: bolder;
+}
+
+.home-preco h4{
+    display: flex;
+    justify-content: center;
+    align-content: center;  
+    font-weight: bolder;
+    color: red;
+}
+
+.home-preco h5{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: line-through;
+    color: grey;
+    font-weight: bolder;
+}
+.home-adiconar-ao-carrinho{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 70px;
+}
+.home-adiconar-ao-carrinho button{
+    width: 70%;
+    height: 100%;
+    border: none;
+    font-weight: bolder;
+    font-size: 1.3em;
+    color:white;
+    background-color: #070c90ef;
+}
+.home-adiconar-ao-carrinho button:hover{
+    background-color: #04087c;
+    transition: 0.3s;
+}

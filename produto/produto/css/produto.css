@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "MedievalSharp", cursive;
+    src: url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+}
+
+h4 a{
+    color:black;
+    text-decoration: none;
+}
+.accordion-body li{
+    list-style: none;
+}
+.preco-de{
+    display: none;
+}
+.preco-de h4{
+    color: grey;
+    text-decoration: line-through;
+}
+.preco-por h3{
+    color: red;
+    font-weight: bold;
+}
+.card-qtd{
+    display: block;
+    height: 60px;
+    width: 60%;
+    border: 1px solid rgba(128, 128, 128, 0.400);
+    border-radius: 5px;
+}
+.add-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-cart button{
+    width: 80%;
+    height: 60px;
+    border:none;
+    color:white;
+    background: #070c90;
+}
+.info-prod{
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+.img-produto img{
+    width : 400px;
+}
+
+.mais:hover, .menos:hover{
+    background-color:#8D733F;
+    transition: 0.4s;
+}
+.container-produto{
+    margin-bottom: 150px;
+}
+
+.accordion-button{
+    color:black;
+    font-size: 1.5rem;
+    font-family: 'MedievalSharp', cursive;
+}
+.accordion-button:focus{
+    border-color: white;
+    box-shadow: none;
+    background-color:white;
+}
+.accordion-button:not(.collapsed){
+    color:black;
+    font-family: 'MedievalSharp', cursive;
+    background-color:white;
+}
+@media (max-width: 976px){
+    .img-produto img{
+        width : 450px;
+    }
+    .info-prod{
+        height: 425px; 
+    }
+
+}
+@media (max-width: 768px){
+    .info-prod{
+        height: 375px; 
+    }
+}

@@ -1,0 +1,23 @@
+.topBarFooter{
+    background-color: #8D733F;
+}
+.btn-cadastrar{
+    background-color: #383423;
+    color: white;
+}
+.desconto{
+    color: white;
+    font-family: 'MedievalSharp', serif;
+}
+
+.conteudoFooter{
+    background-color: #4B4A42;
+    color: white;
+    
+}
+h6{
+    font-family: 'MedievalSharp', serif;
+}
+.infoFooter{
+    padding-left: 65px;
+}

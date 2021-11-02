@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles-pagamento.css">
+  <title>Forma de Pagamento</title>
+</head>
+
+
+<body class="body-pagamento">
+  <div class="container">
+    <!-- <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Cadastrar</a></li>
+        <li class="breadcrumb-item"><a href="../endereco/endereco-entrega.html">Endereço</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Forma de Pagamento</li>
+      </ol>
+    </nav> -->
+
+    <div class="cabecalho-pagamento">
+      <p class="titulo-pagamento">
+        FORMA DE PAGAMENTO
+      </p><br>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div >
+        <h4 class="mb-3">Pagamento</h4>
+
+      <div class="my-3">
+        <div class="form-check">
+          <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+          <label class="form-check-label label-pagamento" for="credit">Cartão de Crédito</label>
+        </div>
+        <div class="form-check">
+          <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+          <label class="form-check-label label-pagamento" for="debit">Cartão de Débito</label>
+        </div>
+      </div>
+
+      <div class="row gy-3">
+        <div class="col-lg-6">
+          <label for="cc-name" class="form-label label-pagamento">Nome no cartão</label>
+          <input type="text" class="form-control" id="cc-name" placeholder="Ex.: Nome Sobrenome" required>
+          <small class="text-muted label-pagamento">Nome completo como está no cartão</small>
+          <div class="invalid-feedback">
+            Nome igual ao do cartão obrigatório.
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <label for="cc-number" class="form-label label-pagamento">Número do Cartão de Crédito</label>
+          <input type="text" class="form-control" id="cc-number" placeholder="Ex.: 0000 0000 0000 0000" required>
+          <div class="invalid-feedback ">
+            Número do cartão obrigatório.
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <label for="cc-expiration" class="form-label label-pagamento">Data de Expiração</label>
+          <input type="text" class="form-control" id="cc-expiration" placeholder="Ex.: 12/28" required>
+          <div class="invalid-feedback">
+            Data de expiração obrigatória.
+          </div>
+        </div>
+        <div class="col-lg-2 cadastro-inv"></div>
+        <div class="col-lg-4 ">
+          <label for="cc-cvv" class="form-label label-pagamento">CVV</label>
+          <input type="text" class="form-control" id="cc-cvv" placeholder="Ex.: 000" required>
+          <div class="invalid-feedback">
+            Código de segurança obrigatório.
+          </div>
+        </div>
+      </div>
+      <hr class="my-4">
+
+      <button class="w-100 btn btn-lg btn-pagamento" type="submit">Cadastrar Forma de Pagamento</button>
+      </form>
+      </div>
+      
+    </div>
+  </div>
+
+  </main>
+
+  <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="form-validation.js"></script>
+  <script src="./pagamento.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  </div>
+</body>
+
+</html>
