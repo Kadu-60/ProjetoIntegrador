@@ -51,3 +51,59 @@ html, body{
 .page-link{
     color: black !important;
 }
+.pesquisa {
+    color: #988152;
+    padding-left: 15px;
+}
+
+.teste{
+    background-color: aquamarine;
+}
+
+.imgPesquisa{
+    width: 100%;
+    max-width: 110px;
+    
+}
+
+.descricao{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.preco{
+    margin-top: -10px;
+    margin-bottom: -1px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.resultadoPesquisa:hover{
+    box-shadow: 1px 1px 3px 0px gray;
+    
+}
+.resultadoPesquisa{
+    box-shadow: 0px 0px 1px 0px rgb(172, 171, 171);
+    
+}
+
+
+.divisao{
+    background-color: #232319;
+}
+
+
+.comprar{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #070c90ef;
+}
+
+.btn-comprar{
+    background-color: #070c90;
+    color: white;
+}
+.btn-comprar:hover{
+    background-color: #1c23e7;
+    color: white;
+}
